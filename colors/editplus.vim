@@ -1,6 +1,6 @@
 " Vim colorscheme
 " Author:  Gary Willoughby
-" Version: 1.3
+" Version: 1.4
 " Date:    24th September 2012
 
 set background=light
