@@ -24,7 +24,7 @@ hi VertSplit                       guibg=#D4D0C8 guifg=white   gui=none
 hi ErrorMsg                        guibg=bg      guifg=red     gui=none
 hi MatchParen                      guibg=#A6CAF0 guifg=black   gui=none
 hi StatusLine                      guibg=#D4D0C8 guifg=black   gui=none
-hi StatusLineNC                    guibg=#D4D0C8 guifg=black   gui=italic
+hi StatusLineNC                    guibg=#D4D0C8 guifg=black   gui=none
 hi Title                           guibg=bg      guifg=black   gui=none
 hi Visual                          guibg=#316AC5 guifg=white   gui=none
 hi WarningMsg                      guibg=bg      guifg=red     gui=none
@@ -56,8 +56,8 @@ if has("spell")
 endif
 
 " Syntax
-hi Comment                         guibg=bg      guifg=#008000 gui=italic
-hi ToDo                            guibg=bg      guifg=#008000 gui=italic
+hi Comment                         guibg=bg      guifg=#008000 gui=none
+hi ToDo                            guibg=bg      guifg=#008000 gui=none
 hi Constant                        guibg=bg      guifg=#008000 gui=none
 hi Statement                       guibg=bg      guifg=blue    gui=none
 hi StatementU                      guibg=bg      guifg=blue    gui=none
@@ -84,12 +84,12 @@ hi NonText                         guibg=bg      guifg=#CCCCCC gui=none
 
 " HTML
 hi htmlnone                        guibg=bg      guifg=fg      gui=none
-hi htmlItalic                      guibg=bg      guifg=fg      gui=italic
+hi htmlItalic                      guibg=bg      guifg=fg      gui=none
 hi htmlUnderline                   guibg=bg      guifg=fg      gui=underline
-hi htmlnoneItalic                  guibg=bg      guifg=fg      gui=none,italic
+hi htmlnoneItalic                  guibg=bg      guifg=fg      gui=none
 hi htmlnoneUnderline               guibg=bg      guifg=fg      gui=none,underline
-hi htmlnoneUnderlineItalic         guibg=bg      guifg=fg      gui=none,underline,italic
-hi htmlUnderlineItalic             guibg=bg      guifg=fg      gui=underline,italic
+hi htmlnoneUnderlineItalic         guibg=bg      guifg=fg      gui=none,underline
+hi htmlUnderlineItalic             guibg=bg      guifg=fg      gui=underline
 hi! link HTMLString                String
 hi! link HTMLTag                   Keyword
 hi! link HTMLEndTag                Keyword
