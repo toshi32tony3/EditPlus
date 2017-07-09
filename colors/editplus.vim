@@ -1,5 +1,5 @@
 " Vim colorscheme
-" Author:  Gary Willoughby 
+" Author:  Gary Willoughby
 " Version: 1.3
 " Date:    24th September 2012
 
@@ -41,8 +41,8 @@ hi WildMenu                        guibg=#94DE9E guifg=#2A2A2A gui=none
 hi DiffChange                      guibg=bg                    gui=none
 hi DiffAdd                         guibg=#8AC38A guifg=white   gui=none
 hi DiffDelete                      guibg=#b27272 guifg=white   gui=none
-hi DiffText                        guibg=#008FFF guifg=white   gui=none 
- 
+hi DiffText                        guibg=#008FFF guifg=white   gui=none
+
 " Search
 hi Search                          guibg=#316AC5 guifg=white  gui=none
 hi IncSearch                       guibg=#316AC5 guifg=white  gui=none
